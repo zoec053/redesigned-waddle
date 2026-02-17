@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: ; Choose 3 fonts style for the font family (Arial, Helvetica...)*/
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 body {
     min-height: 100vh;
-    /* background: choose your own background color */
+    background: white*/
     display: flex;
     justify-content: center;
     align-items: center;
