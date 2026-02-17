@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; Choose 3 fonts style for the font family (Arial, Helvetica...)*/
+}
+
+
+body {
+    min-height: 100vh;
+    /* background: choose your own background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.container {
+    width: 100%;
+    /* max-width: ; choose the max width of tyour container*/
+    text-align: center;
+    padding: 30px 20px;
+}
+
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 15px;
+}
+
+
+h1 {
+    /* Add a font style for the title */
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+
+.bio {
+    /* font-size: ; modify the font size to be different from h1*/
+    opacity: 0.85;
+    margin-bottom: 25px;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.link-btn {
+    /* background: change the bacground color; */
+    border-radius: 10px;
+    /* padding: ; choose a padding dimension
+    /!\ there are 2 dimensions !!*/
+    text-decoration: none;
+    /* color: ; change the color */
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    transition: all 0.3s ease;
+}
+
+.link-btn img {
+    /* width: ;
+    height: ;
+    Choose a size of image (note : should ba a square so x = y) */
+}
+
+.link-btn:hover {
+    background: white;
+    color: #c33764;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* Feel free to change the other parameters and do tests with the css */
